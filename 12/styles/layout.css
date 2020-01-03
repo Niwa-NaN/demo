@@ -1,0 +1,133 @@
+section,header,article,nav{
+    display: block;
+}
+*{
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    margin: 1em 10%;
+    background-image: url('../images/background.jpg');
+    background-size: auto 100% ;
+    background-attachment: fixed;/*设置背景页面是否固定或随之滚动scroll 	默认值。背景图像会随着页面其余部分的滚动而移动。fixed 	当页面的其余部分滚动时，背景图像不会移动。inherit 	规定应该从父元素继承 background-attachment 属性的设置。*/
+    background-position: top left;/*左上*/
+    /*background-repeat: repeat;*/
+    /*max-width: 80em;*/
+}
+header{
+    background-image: url(../images/guitarist.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;/*右下*/
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    padding: 0;
+}
+header nav{
+    /*background-image: url("../images/navbar.jpg");*/
+    background-position: top left;
+    background-repeat: repeat;
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;/*上边框宽度*/
+    border-bottom-width: 0;
+    padding-left: 10%;
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+}
+header nav li{
+    display: inline;
+}
+header nav li a{
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+}
+header img{
+    max-width: 20em;
+    max-height: 15em;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+article{
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+article img{
+    border-width: .1em;
+    border-style: solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+#about header{
+    background-image: url("../images/lineup.jpg");
+}
+#photos header{
+    background-image: url("../images/basshead.jpg");
+}
+#live header{
+    background-image: url("../images/bassist.jpg");
+}
+#contact header{
+    background-image: url("../images/drummer.jpg");
+}
+#slideshow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+#frame{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 17px;
+    left: 30px;
+    z-index: 99;
+}
+#imagegallery li{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+#imagegallery li img{
+    max-height: 100px;
+    max-width: 125px;
+    height: 100%;
+    width: 100%;
+}
+
+td{
+    padding: .5em 3em;
+}
+th{
+    color: #edc;
+    background-color: #455;
+}
+tr td{
+    color: #233;
+    background-color: #eb6;
+}
+dl{
+    overflow: hidden;
+}
+dt{
+    float: left;
+}
+dd{
+    float: left;
+}

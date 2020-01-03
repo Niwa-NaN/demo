@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script>
+        function showBar() {
+            var diving = document.getElementById('test');
+            console.log(diving);
+            for(var i=0;i<3;i++){
+                var para= document.createElement('p');
+                var para_text = document.createTextNode('我是para');
+                para.appendChild(para_text);
+                diving.appendChild(para);
+            }
+            var oneString = '这是一个有换行的语句\n';
+            console.log(oneString.split('\n')[0]);
+        }
+        window.onload = function () {
+            showBar();
+        }
+    </script>
+</head>
+<body>
+    <div id="test">123</div>
+</body>
+</html>
