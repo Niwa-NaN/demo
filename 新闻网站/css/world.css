@@ -1,0 +1,10 @@
+.rows .col-md-4{
+    padding: 2px 2px 2px 2px;
+}
+.rows .col-md-4 img{
+    width: 376px;
+    height: 194px;
+}
+a{
+    text-decoration: none;
+}

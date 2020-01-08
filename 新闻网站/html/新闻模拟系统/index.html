@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻模拟系统</title>
+    <script src="../../js/jquery.js"></script>
+    <link rel="stylesheet"href="../../bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet"href="../../css/app.css">
+    <script src="../../bootstrap-3.3.7/js/bootstrap.js"></script>
+    <script src="../../js/index.js"></script>
+<!--    <link rel="stylesheet"href="../../css/world.css">-->
+</head>
+<body>
+<!--    导航栏-->
+    <div class="nav">
+        <div id="nav">
+            <img src="../../pic/logo.jpg" style="float: left"/>
+            <ul class="nav nav-pills">
+                <li role="presentation" class="active"><a href="index.html">首页</a></li>
+                <li role="presentation"id="world"><a href="world.html">时政</a></li>
+                <li role="presentation"id="military"><a href="military.html">军事</a></li>
+                <li role="presentation"id="financial"><a href="financial.html">金融</a></li>
+                <li role="presentation"id="culture"><a href="culture.html">文化</a></li>
+                <li role="presentation"id="sport"><a href="sport.html">体育</a></li>
+                <li role="presentation"id="technology"><a href="technology.html">科技</a></li>
+            </ul>
+        </div>
+    </div>
+<!--    主题版块-->
+    <div class="onepage">
+        <div class="onepage-bg"id="onepage">
+<!--            设置外部容器-->
+            <div class="container">
+<!--                占据行空间-->
+                <div class="row">
+                    <div class="title-text">
+                        <div class="col-md-12">
+                            <h1 class="headh1content">
+                                欢迎光顾新闻模拟系统<br/>
+                                <small>我们在不知不觉中为您提供最好的体验</small>
+                            </h1>
+                            <p>只有你想不到……</p>
+                            <p class="btn btn-success btn-lg"><a href="#twopage">点击这里，开启你欣赏视界的旅程。</a></p>
+<!--                            <a href="#twopage">点击这里，开启你欣赏视界的旅程。</a>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--    新闻分类版块(后端是否需要建一个库来专门存放此版块的数据)-->
+    <div class="twopage">
+<!--        标题栏，并放置logo-->
+        <div class="twopage-text"id="twopage">
+            <h1 class="twopage-text-h1">
+                选择属于你的新闻版块吧！！！<img src="../../pic/logo.jpg"/>
+            </h1>
+        </div>
+<!--        放置所需新闻简介模块-->
+        <div class="row">
+            <div class="twopage-courses col-md-4">
+                <a href="world.html">
+                    <img src="../../pic/时政.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>敏感时刻，以色列出现惊人“口误”</h3>
+                        <h1><strong>时政</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="twopage-courses col-md-4">
+                <a href="financial.html">
+                    <img src="../../pic/金融.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>特斯拉创收盘新高，美股全线收涨</h3>
+                        <h1><strong>金融</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="twopage-courses col-md-4">
+                <a href="military.html">
+                    <img src="../../pic/军事.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>苏莱曼尼被暗杀，伊朗驻联合国代表：伊朗将自己决定报复时机</h3>
+                        <h1><strong>军事</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="twopage-courses col-md-4">
+                <a href="culture.html">
+                    <img src="../../pic/文化.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>《红楼梦》：黛玉和贾环有何区别？论教育方式对成长的影响</h3>
+                        <h1><strong>文化</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="twopage-courses col-md-4">
+                <a href="sport.html">
+                    <img src="../../pic/体育.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>C罗意甲生涯首个帽子戏法，尤文4-0豪取新年开门红</h3>
+                        <h1><strong>体育</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="twopage-courses col-md-4">
+                <a href="technology.html">
+                    <img src="../../pic/科技.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>上海工厂生产特斯拉交付，国产新能源车怎么办？</h3>
+                        <h1><strong>科技</strong></h1>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+<br/><br/>
+<!--    底部栏-->
+    <div class="bottom-bar"style="text-align: center;"id="target">
+        技术支持@Niwa
+    </div>
+</body>
+</html>

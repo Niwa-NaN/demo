@@ -1,0 +1,229 @@
+body{
+    font-family:verdana;
+}
+.nav img{
+    height: 50px;
+    width: auto;
+}
+
+h1,h3,p,a,button{
+    /*font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino";*/
+}
+.onepage{
+    height: 750px;
+}
+.onepage-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover ;
+}
+#onepage{
+    background-image: url("../pic/1.png");
+}
+.headh1content{
+    margin-top: 150px;
+    line-height: 75px;      /*设置行间距离*/
+}
+.title-text{
+    margin-left: 50px;
+}
+.headfontsize h1{
+    font-size: 50px;
+    color: #ffffff;
+}
+.headfontsize p{
+    color: #ffffff;
+}
+
+
+/*页面二*/
+.twopage{
+    padding: 2px 0 0 2px;
+    height: auto;
+    background-image: url("../pic/17.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.twopage-text{
+    width: 100%;
+    text-align: center;
+}
+.twopage-text-h1{
+    margin-left: 120px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.twopage h1 img{
+    width: 50px;
+    height: auto;
+}
+.twopage .row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.twopage-courses{
+    float: left;
+    background: #ffffff;
+    padding: 0 2px 2px 2px;
+    text-align: center;
+    position: relative;
+}
+.classicon h3{
+    margin-top: 120px;
+    color: #d1e973;
+}
+.classicon h1{
+    color: #fff5e1;
+}
+.classicon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+}
+.classicon:hover{
+    background: #1eb450;
+    opacity: 0.9;
+    transition: opacity 0.6s;
+    /*-webkit-transition: opacity 0.5s;*/
+}
+.twopagebtn{
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+}
+.twopagebtn .btn-lg{
+    font-size: 25px;
+}
+.twopage-courses img{
+    width: 500px;
+    height: 300px;
+}
+
+
+/*页面三*/
+.threepage-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#threepagebg{
+    background-image: url("../pic/19.jpg");
+}
+.threepagetext{
+
+}
+.threepagecontent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.threepagetext{
+    color: #fff;
+    margin-top: 100px;
+}
+.threepagetext p{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+}
+.threepagebtncontent{
+    margin-top: 300px;
+    font-size: 25px;
+}
+
+
+/*页面四*/
+.fourpage{
+    height: 700px;
+    position: absolute;
+    background-image: url("../pic/20.jpg");
+    /*background-position: center center;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 750px;
+}
+.coursexingqing-text{
+    color: #ffffff;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+.coursexingqing-text p{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.fourpage .container .carousel{
+    margin-top: 100px;
+}
+/*.carousel-inner img{*/
+/*    position: center;*/
+/*    */
+/*}*/
+.carousel-control.left{
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: repeat-x;
+}
+.carousel-control.right{
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-repeat: repeat-x;
+}
+
+
+/*页面五*/
+.fivepage-bg{
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#fivepage{
+    background-image: url("../pic/1.png");
+}
+.footertext{
+    margin-top: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.footerbtncenter{
+    margin-top: 100px;
+    text-align: center;
+}
+.queryicon{
+    width: 200px;
+}
+.queryicon:hover{
+    border: 2px solid #00FF00;
+}
+.footertextbtn{
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+}
+.footertextbtn-text{
+    margin-top: 20px;
+    color: #000000;
+}
+
